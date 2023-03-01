@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1"/>
+        <link rel="stylesheet" href="style.css">
+        <title>Contatti F.D.E.</title>
+        <style>
+            #cont-lay{
+                text-decoration: underline;
+            }
+            footer{
+                margin-top: 16.4rem;
+            }
+            @media screen and (min-width: 46.875rem){
+                footer{
+                    margin-top: 22rem;
+                }
+            }
+            @media screen and (min-width: 50rem){
+                footer{
+                    margin-top: 32rem;
+                }
+            }
+            @media screen and (min-width: 56.25rem){
+                footer{
+                    margin-top: 43rem;
+                }
+            }
+            body{
+                text-shadow: 0 0 5em white;
+            }
+            ul a{
+                text-shadow: none;
+            }
+        </style>
+    </head>
+    <body>
+        <video src="./video/bg-video.mp4" id="bgvideo" autoplay loop muted></video>
+        <header class="header">
+            <div class="limita">
+                <a href="#" class="logo"><img src="./img/logo-black.png" alt="" id="logo-nav"></a>
+                <input type="checkbox" id="menu-btn" class="menu-btn">
+                <label for="menu-btn" class="menu-icon">
+                    <span class="nav-icon"></span>
+                </label>
+                <ul class="menu">
+                    <li><a href="main-page.html" id="home-lay">Home</a></li>
+                    <li><a href="contatti.html" id="cont-lay">Contattaci</a></li>
+                    <li><a href="modelli.html" id="model-lay">Modelli</a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="principale">
+            <div id="secondario">
+                <h1>Come contattarci?</h1>
+                <ul>
+                    <li>Tramite la nostra email aziendale: <a href="mailto:info.fde@gmail.com"><i>info.fde@gmail.com</i></a></li>
+                    <li>Tramite telefono: <a href="tel:+393783979706"><code>3783979706</code></a></li>
+                    <li>Usando i nostri profili social !</li>
+                </ul>
+                <div class="social">
+                    <a href="#"><img src="./img/logo-social.png" alt="logo" id="social-logo"></a>
+                    <a href="https://it-it.facebook.com/" target="_blank"><img src="./img/facebook.png" alt="facebook" id="facebook"></a>
+                    <a href="https://www.instagram.com/" target="_blank"><img src="./img/instragram.png" alt="instagram" id="instagram"></a>
+                    <a href="https://www.youtube.com/" target="_blank"><img src="./img/youtube.png" alt="youtube" id="youtube"></a>
+                </div>
+                <div id="locate">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.888679537096!2d9.686594354099109!3d45.351059370357056!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47813b45ce16fc3b%3A0x83b96c3d429336cf!2sSissi%20Racing!5e0!3m2!1sit!2sit!4v1671808411061!5m2!1sit!2sit" 
+                    width="300" height="200" style="border: none;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <p>Copyright © 2023 F.E.D. S.P.A. | C.F./Partita I.V.A. IT 02154279038</p>
+        </footer>
+    </body>
+</html>
